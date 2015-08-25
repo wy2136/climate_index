@@ -8,4 +8,4 @@ http://www.esrl.noaa.gov/psd/gcos_wgsp/Timeseries/
 * **plot_climate_index(climate_index_name)**: plot the climate index time series.
 
 ### Notebook Introduction
-http://nbviewer.ipython.org/urls/dl.dropbox.com/s/m6cvln2it3w5rcz/climate_index.ipynb
+http://nbviewer.ipython.org/github/wy2136/climate_index/blob/master/climate_index.ipynb
