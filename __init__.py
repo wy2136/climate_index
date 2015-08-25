@@ -6,6 +6,7 @@
 
 from __future__ import print_function
 import pandas as pd
+import matplotlib.pyplot as plt
 
 database = {
     'soi': {
