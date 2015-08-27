@@ -6,7 +6,8 @@
 Welcome to climate_index's documentation!
 =========================================
 
-Contents:
+Contents
+=========
 
 .. toctree::
    :maxdepth: 2
