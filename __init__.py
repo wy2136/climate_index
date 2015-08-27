@@ -136,6 +136,7 @@ database = {
     },
 }
 def print_database():
+    '''Print the climate index database.'''
     for name in sorted(database.keys()):
         print(name.upper())
         print(' '*4, database[name]['long_name'])
@@ -174,6 +175,7 @@ def _get_year_month_index(year_start, year_end):
     return year_month_index
 # year_month_index = _get_year_month_index(1870, 2015)
 def get_climate_index(climate_index_name=None):
+    '''Return the climate index as a pandas Series given its name, e.g. 'ao', 'soi', etc. If climate_index_name is None, print information of all the available climate indices.'''
     if climate_index_name is None:
         print_database()
         return
@@ -184,9 +186,10 @@ def get_climate_index(climate_index_name=None):
         index=year_month_index, name=climate_index_name.upper())
     return climate_index
 def plot_climate_index(climate_index_name):
+    '''Plot climate index.'''
     climate_index = get_climate_index(climate_index_name)
     climate_index.plot()
-    plt.legend()
+    plt.legend(loc='best')
 # plot_climate_index('nino34')
 # plot_climate_index('nino12')
 # plot_climate_index('pdo')

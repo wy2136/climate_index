@@ -1,4 +1,4 @@
-Copyright (c) 2015, Wenchang Yang
+Copyright (c) 2015, Wenchang Yang, University of California, Irvine
 
 All rights reserved.
 
