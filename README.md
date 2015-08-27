@@ -7,5 +7,8 @@ http://www.esrl.noaa.gov/psd/gcos_wgsp/Timeseries/
 * **get_climate_index(climate_index_name=None)**: get the climate index as a pandas Series instance (if None, print the database).
 * **plot_climate_index(climate_index_name)**: plot the climate index time series.
 
-### Notebook Introduction
+### Notebook Examples
 http://nbviewer.ipython.org/github/wy2136/climate_index/blob/master/climate_index.ipynb
+
+### Documentation
+https://dl.dropboxusercontent.com/u/16364556/climate_index_doc/html/index.html
