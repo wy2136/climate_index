@@ -38,7 +38,7 @@ https://dl.dropboxusercontent.com/u/16364556/climate_index_doc/html/index.html
 """
 
 setup(name=DISTNAME,
-      version=FULLVERSION,
+      version=VERSION,
       license=LICENSE,
       author=AUTHOR,
       author_email=AUTHOR_EMAIL,
