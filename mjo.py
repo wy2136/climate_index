@@ -10,6 +10,8 @@ import datetime
 import os
 
 def get_mjo(months=None, years=None, reload_data=False):
+    '''MJO index from
+        http://www.bom.gov.au/climate/mjo/graphics/rmm.74toRealtime.txt'''
     module_dir, fname = os.path.split(__file__)
     data_file = os.path.join(module_dir, 'data', 'rmm.74toRealtime.txt')
     data_file_exists = os.path.exists(data_file)
